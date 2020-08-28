@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+body{
+    overflow-x: hidden;
+    font-family: quicksand;
+    background-color: #f8f8f8;
+}
+.header_area.sticky {
+    background-color: #f8f8f8;
+    -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    position: static;
+    top: 0;
+    z-index: 99;
+}
+.menu_area #nav .nav-link {
+    color: #333333;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.wellcome_area {
+    background-image: none;
+}
+
+.wellcome-heading > p {
+    color: #0a0a0a;
+}
+.wellcome-heading {
+    position: absolute;
+    margin-bottom: auto;
+        bottom: 18px;
+    
+}
+
+
+.wellcome-heading {
+    margin-bottom: auto;
+}
+
+    .wellcome-heading > h2 {
+    font-size: 43px;
+    color: #0a0a0a;
+    font-weight: 500;
+    position: relative;
+    z-index: 3;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: quicksand;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.2;
+}
+p {
+    color: #0a0a0a;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+}
+.app-download-area {
+    display: inline-flex;
+    margin: auto;
+    
+    position: absolute;
+}
+
+.app-download-btn a:hover {
+    background: #3baa34;
+}
+.app-download-area>div {
+    float: right;
+}
+.app-download-btn a {
+    border: 2px solid #3baa34;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 11px 30px;
+    border-radius: 30px 30px 30px 30px;
+    }
+    .app-download-btn a p {
+    font-size: 12px;
+}
+.single-special {
+    border: none;}
+
+    .footer-menu ul li a {
+    border-right: none;
+}
+
+.special_description_content {
+    width: 330px;
+    height: 460px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+    .special_description_content > h2 {
+    color: #0a0a0a;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.single-special > h4 {
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.bg-white {
+    background-color: #f8f8f8!important;
+}
+.wellcome_area:after{
+        background-color: #f8f8f8;
+}
+
+#scrollUp{
+    background-color: #3baa34;
+}
+
+section.foot {
+    margin-bottom: auto !important;
+    box-shadow: none !important;
+    /* background-color: #e5f0e5; */
+}
+
+.section_padding_70 {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.section_padding_100 {
+    padding-top: 0px;
+ }
+nav .fa {
+    color: #393939;
+}
+
+.footy .single-special{
+
+    box-shadow:none !important;
+}
+
+
+footer.footer-social-icon.text-center.section_padding_70 {
+    position: static !important;
+    z-index: 0 !important;
+        background: #e5f0e4;
+}
+ 
+ .single-special.footone {
+    position:absolute;
+    left:130px;
+}
+ .single-special.footthree {
+    position:absolute;
+    right:130px;
+}
+
+section.foot .single-special {
+    padding-top: 0;
+}
+
+svg.footerSVG {
+    width: 120% !important;
+    position: absolute !important;
+    height: 100% !important;
+    transform: translate(-50%,-400px) !important;
+    left: 50%;
+}
+
+section.foot>.row>div:not(.col-md-12) {
+    margin-top: 7px;
+    background: #e5f0e5;
+}
+
+svg.footerSVG>path {
+    fill: #e5f0e5 !important;
+}
+
+svg.bodySVG>path {
+    fill: #e5f0e6 !important;
+}
+
+svg.bodySVG {
+    position: absolute;
+    top: 50%;
+    width: 120%;
+    transform: translate(-5%,0);
+}
+
+svg.footerSVG>path, svg.bodySVG>path, svg.sliderSVG>path {
+    transition:all 4000ms ease-in-out 0s, fill 1s ease-in-out 0ms;
+}
+
+svg.sliderSVG>path {
+    fill: #e5f0e6 !important;
+}
+
+svg.sliderSVG {
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    transform: translate(-15%,0px);
+}
+a.navbar-brand img {
+    width: 50%;
+}
+
+/*The Animated Vectors*/
+    /*Control Vector*/
+        svg.control.removeFill * {
+            fill: transparent;
+            stroke: transparent;
+        }
+        svg.control.drawFill * {
+            fill: transparent;
+            stroke: #000;
+            /*transition: stroke 100ms linear 0ms;*/
+        }
+        svg.control.animateFill * {
+            transition: fill 75ms linear 0ms, stroke 750ms linear 0ms;
+            stroke: transparent;
+        }
+
+        svg.control.animateFill g.rotate>path {
+            -webkit-animation: rotation 10s infinite linear 1550ms;
+            transform-origin: 36% 41.5%;
+        }
+
+        svg.control.animateFill g.gearBrotate>path {
+            -webkit-animation: rotationReverse 10s infinite linear 1500ms;
+            transform-origin: calc(63.5% - -1px) calc(63% - 2px);
+        }        
+
+        /*Convenience Vector*/
+
+        svg.convenience.removeFill * {
+            fill: transparent;
+            stroke: transparent;
+            /*transition: all 8s linear 0s;*/
+        }
+        svg.convenience.drawFill * {
+            fill: transparent;
+            stroke: #000;
+            /*transition: all 8s linear 0s;*/
+        }
+        svg.convenience.animateFill * {
+            transition: fill 75ms linear 0ms, stroke 750ms linear 0ms;
+            stroke: transparent;
+        }
+
+        svg.convenience.animateFill g.rotateWheel {
+            -webkit-animation: rotation 10s infinite linear 1550ms;
+            transform-origin: calc(57% - 4px) calc(52.5% - 8px);
+        }
+
+        /*Rotating Keyframes*/
+
+        @-webkit-keyframes rotation {
+                from {
+                        -webkit-transform: rotate(0deg);
+                }
+                to {
+                        -webkit-transform: rotate(359deg);
+                }
+        } 
+
+        @-webkit-keyframes rotationReverse {
+                from {
+                        -webkit-transform: rotate(359deg);
+                }
+                to {
+                        -webkit-transform: rotate(0deg);
+                }
+        }  
+
+        /*Access Vector*/
+
+        svg.access.removeFill * {
+            fill: transparent;
+            stroke: transparent;
+            /*transition: all 8s linear 0s;*/
+        }
+        svg.access.drawFill * {
+            fill: transparent;
+            stroke: #000;
+            /*transition: all 8s linear 0s;*/
+        }
+        svg.access.animateFill * {
+            transition: fill 75ms linear 0ms, stroke 750ms linear 0ms;
+            stroke: transparent;
+        }
+        svg.access path.cloud {
+            transition: all 2s cubic-bezier(0.67, 0.03, 0.34, 0.97) 0ms;
+        }
+        svg.access path.cloud:first-child {
+            transform: translateY(4em);
+        }
+        svg.access path.cloud:nth-child(2) {
+            transform: translateY(1em);
+        }
+
+        svg.access.wind path.cloud:first-child {
+            transform: translateY(-10em);
+        }
+        svg.access.wind path.cloud:nth-child(2) {
+            transform: translateY(7em);
+        }
+
+
+
+
+        svg.dashedSVG path#e3_path {
+          stroke-width: 6px !important;
+        }
+        svg.dashedSVG path#e15_path {
+          stroke-width: 6px !important;
+        }
+        svg.dashedSVG path#e28_path {
+          stroke-width: 6px !important;
+        }
+        .menuicon ul {
+    display: inline-flex;
+   
+}
+.menuicon .single-special {
+    border: none;
+    padding: 17px 9px 16px;
+    border-radius: inherit;
+    background-color: #fff;
+    min-height: 0;
+    float: left;
+    margin: 0;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+}
+.single-icon {
+    margin-bottom: auto;
+}
+
+section.row.menuicon li {
+    min-height: 138px;
+    background-color: #fff;
+    margin: 0 8px;
+    transition: all 100ms linear 0ms;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.row.menuicon li:hover {
+    box-shadow: 0px 6px 30px -15px #000;
+}
+
+section.row.menuicon li svg * {
+    fill: #3baa34;
+    transition: all 100ms linear 0ms;
+}
+
+section.row.menuicon li:hover svg * {
+    fill: red;
+}
+
+.container.mpesa{
+
+    min-height: 340px !important;
+}
+
+.mpesarow{
+position: relative;
+
+}
+
+.mpesalogo{
+        position: absolute;
+    top: 150px;
+    left: 50%;
+    
+    transform: translateX(-50%);
+}
+#convenience .special_description_content {
+
+    top:20%;
+    transform:translateY(20%)
+}
+#control .special_description_img svg {
+    right: 15%;
+    transform: translateX(-15%);
+}
